@@ -1,0 +1,29 @@
+[contentEditable=false]:empty:not(:focus):before{
+        content:attr(data-text)
+    }
+
+.left-div {
+    float: left;
+    margin-left: 10px;
+    width: 600px;
+    height: 500px;
+}
+
+.right-div {
+    margin-left: 620px;
+}
+
+#output{
+	background-color: #00ace6;
+}
+
+#clear{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}

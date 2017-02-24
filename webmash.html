@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<!-- Student Name: Saraogi Supriya  -->
+<!-- Project Name: Web Mashup: Display House Address on a Map with Weather details  -->
+<!-- Project No: 2 -->
+<!-- Due Date: Tuesday Oct 26  before midnight -->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="webmash.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgLNaIRNOEH3o9VBa5ss70SqTsn-4a4ek" type="text/javascript"></script>
+  </head>
+  <body onload="initialize();">
+
+    <div class = "left-div" id="map"></div>
+    <div class="right-div">
+      <div id="output" contentEditable=false data-text="Please click on the map to get weather information"></div>
+      <br/>
+      <button id="clear" onclick="clearAllFields()">Clear</button>
+    </div>
+   
+  </body>
+</html>
